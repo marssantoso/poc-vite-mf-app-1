@@ -7,7 +7,7 @@
     "build": "vite build",
     "build:watch": "vite build --watch",
     "prebuild": "npm run typecheck",
-    "start": "import-meta-env -x .env.example && vite preview --port=4001",
+    "start": "import-meta-env -x .env.example && vite preview --port=4001 --host",
     "typecheck": "vue-tsc --noEmit",
     "lint:eslint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
     "lint:prettier": "prettier --write src/",
